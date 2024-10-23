@@ -47,7 +47,7 @@ with col1:
     glucose = st.number_input("Average Blood Glucose", min_value=0, step=1)
 
 with col2:
-    st.image("https://image.shutterstock.com/image-vector/glucose-meter-icon-vector-illustration-260nw-1403768747.jpg", width=150)
+    st.image("https://media-blog.lalpathlabs.com/apis/70329ba2-8215-412b-ade1-4358a6e1b230.jpg", width=150)
 
 # Function to calculate estimated HbA1c from average blood glucose
 def calculate_hba1c(avg_glucose):
